@@ -107,6 +107,7 @@ class LocationProvider with ChangeNotifier {
   void stopLocationUpdates() {
     _locationUpdateTimer?.cancel();
   }
+  // Hello I have add this new
 
   void _showSnackbar(BuildContext context, String message) {
     ScaffoldMessenger.of(context).showSnackBar(
